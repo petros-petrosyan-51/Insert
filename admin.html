@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/Jquery.js"></script>
+</head>
+<body>
+<div id="div">
+    <a style="color: #f46e42;text-decoration: none"  href="index.html">Home</a>
+    <form action="query.php" method="post" id="form">
+        <input id="content" style="    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;" name="content" type="text">
+        <input id="insert" style="  margin-right: 20px;
+    background: #f46e42;
+    padding: 0.8em 1.5em;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 0.1s all;
+    -webkit-transition: 0.1s all;
+    -moz-transition: 0.1s all;
+    -o-transition: 0.1s all;" type="submit" value="Insert">
+    </form>
+</div>
+<div class="divs" style="   position: relative;
+    width: 40%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);">
+    <form id="form_update"  method="post">
+        <input type="text" style="    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;" id="update_input" name="content2">
+        <input type="hidden" id="hidden" name="id">
+        <input id="update" type="submit" style="  margin-right: 20px;
+    background: #f46e42;
+    padding: 0.8em 1.5em;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 0.1s all;
+    -webkit-transition: 0.1s all;
+    -moz-transition: 0.1s all;
+    -o-transition: 0.1s all;" value="Save">
+    </form>
+</div>
+<div class="dives" style="   position: relative;
+    width: 40%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);">
+    <form id="form_delete"  method="post">
+        <h1>Approve</h1>
+        <input type="hidden" id="delete_input" name="content3">
+        <input type="hidden" id="hidden_delete" name="hidden_id">
+        <input id="delete_yes" type="submit" style="  margin-right: 20px;
+    background: #f46e42;
+    padding: 0.8em 1.5em;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 0.1s all;
+    -webkit-transition: 0.1s all;
+    -moz-transition: 0.1s all;
+    -o-transition: 0.1s all;" value="Yes">
+        <input id="delete_no" style="  margin-right: 20px;
+    background: #f46e42;
+    padding: 0.8em 1.5em;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 0.1s all;
+    -webkit-transition: 0.1s all;
+    -moz-transition: 0.1s all;
+    -o-transition: 0.1s all;" type="button" value="No">
+    </form>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
